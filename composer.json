@@ -1,5 +1,5 @@
 {
-    "name": "kohkimakimoto/workerphp",
+    "name": "openwebx/workerphp",
     "description": "A PHP micro job scheduler framework like cron.",
     "homepage": "https://github.com/kohkimakimoto/workerphp",
     "license": "MIT",
@@ -13,10 +13,10 @@
         "react/react": "0.4.*",
         "pimple/pimple": "~3.0",
         "symfony/event-dispatcher": "2.6.*",
-        "symfony/console": "2.6.*",
-        "symfony/process": "2.6.*",
-        "symfony/finder": "2.6.*",
-        "symfony/routing": "2.6.*",
+        "symfony/console": "*",
+        "symfony/process": "*",
+        "symfony/finder": "*",
+        "symfony/routing": "*",
         "mtdowling/cron-expression": "1.0.*"
     },
     "require-dev": {
