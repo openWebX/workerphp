@@ -27,7 +27,7 @@ class Worker extends Container
      */
     public function __construct($config = array())
     {
-        $this->masterPid = \posix_getpid();
+        $this->masterPid = posix_getpid();
         $this->finished = false;
 
         // Registers fundamental instances.
